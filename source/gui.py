@@ -10,7 +10,7 @@ if current_os == "Windows":
 else:
     icon_path = r"/home/yourusername/Desktop/lego_head_transparent.png"
 
-user_input = input("Press Enter to run: ")
+print("Running...")
 
 def run():
     global root
