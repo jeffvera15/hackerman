@@ -10,10 +10,9 @@ if current_os == "Windows":
 else:
     icon_path = r"/home/yourusername/Desktop/lego_head_transparent.png"
 
-print("Running...")
-
 def run():
     global root
+    print("Running...")
     root = tk.Tk()
     root.title("HackerMan")
     root.configure(bg="black")
@@ -34,8 +33,4 @@ def close():
     print("Exiting...")
     root.destroy()
 
-if user_input == "":
-    run()
-else:
-    print("Exiting...")
-    
+run()
